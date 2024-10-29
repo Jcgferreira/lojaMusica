@@ -1,0 +1,86 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-title {
+    font-family: "Pacifico", cursive;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: #415ee1;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #415ee1;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, 
+.navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggle{
+    background-color: #fff;
+}
+
+#sobre, #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #415ee1
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #415ee1;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #415ee1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
